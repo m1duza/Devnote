@@ -1,0 +1,86 @@
+.accordion {
+    border-radius: 5px;
+  
+  }
+  .accordion-header {
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.5s;
+  }
+  .accordion-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-out, padding 0.7s ease-out;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  /* прижать к низу */
+  }
+  
+  .active {
+    max-height: 200px;
+  }
+ 
+.accordion-item{
+    font-size: 0.75rem;
+    
+}
+
+.accordion-item2 {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  align-items: end;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  gap: 5px;
+}
+
+.accordion-item2 a:hover {
+  
+  text-decoration-color: var(--yelow-color) ;
+
+}
+
+.accordion-item2 a::after {
+  
+  background-color: #f39c12;
+  transition: width 0.7s ease;
+}
+
+
+.accordion-header{
+  display: flex;
+  
+  justify-content: space-between;
+  padding: 5px 5px 0 5px;
+}
+.accordion-item2 a {
+  text-decoration: underline;
+  text-decoration-color: transparent; /* начальное состояние — скрытая линия */
+  text-underline-offset: 3px;
+  cursor: pointer;
+  transition: text-decoration-color 0.7s ease;
+  transition: filter 0.7s;
+}
+
+.accordion-item2 a:hover {
+  text-decoration-color: var(--bright-color); /* меняй на свой цвет */
+  filter: brightness(1.1);
+}
+
+.rotate-chevron {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+.aside-accordion-svg{
+  width: 1.7rem;
+}
+.title-article-span{
+  margin-left: 0.3rem;
+}

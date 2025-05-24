@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.explain-introducing{
+    margin-top: 1.25rem
+}
+.html-code-title{
+    font-weight: bold;
+    color: var(--semi-red-color);
+}
+.html-code-block{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.25rem;
+}
+.html-code{
+    background-color: var(--background-color-code);
+    border: 1px solid var(--border-color);
+    border-radius: 15px 0px 15px 15px;
+    padding: 1.25rem;
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.875rem;
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+}
+.common-block-for-code{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+.out-upper-block{
+    display: flex;
+    justify-content: space-between;
+}
+.gray{
+    color: var(--main-color);
+}
+.orange-color{
+    color: var(--orange-color);
+}
+.tag{
+    color: var(--semi-red-color)
+}
+.green{
+    color: var(--light-green);
+}
+.code-line{
+    font-family: "Roboto Mono";
+
+}
+.code-line2{
+    margin-left: 40px;
+}
+.code-line3{
+    margin-left: 80px;
+}
+.code-line4{
+    margin-left: 120px;
+}
+
+.copy-img{
+    width: 1rem;
+    height: 1rem;
+}
+.icon {
+    width: 1.1rem; /* Пример использования rem */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+  }
+  .copy-container{
+    align-items: end;
+  }
+.copy-button{
+    width: 6.25rem;
+    height: 1.5rem;
+    border-radius: 16px 16px 0 0;
+    border-top: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.copy-button {
+    background-color: #0D1016;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .copy-button:hover {
+    background-color: var(--slightly-lightly-code);
+  }
+  
+  .copy-button.copied {
+    background-color: #1A1D24;
+  }
+.status-copy-text{
+    position: absolute;
+    margin-bottom: 100px;
+    margin-left: 55px;
+    padding: 5px;
+    background-color: var(--slightly-lightly-code);
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+ol{
+    list-style: decimal;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1.25rem;
+}
+.css-ol{
+    font-weight: normal;
+    margin-top: 0.6rem;
+}
+.html-line{
+    width: 100%;
+    background-color: var(--second-border-color);
+    height: 1px;
+    margin-top: 0.75rem;
+}
+.css-code-block{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.25rem;
+}
+.css-code-title{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--blue-color);
+}
+.css-code{
+    width: 100%;
+    padding: 1.25rem;
+    background-color: var(--background-color-code);
+    border-radius: 15px 0px 15px 15px;
+    border: 1px solid var(--border-color);
+    position: relative;
+    font-family: "Roboto Mono";
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+.yellow{
+    color: var(--yelow-color);
+}
+.css-reminder-text{
+    font-style: italic;
+    font-size: 1rem;
+}
+.rememinder-block{
+    border-left: 1px solid var(--bright-color);
+    padding-left: 8px;
+    font-weight: normal;
+    margin-top: 0.75rem;
+}
+.js-code-title{
+    color: var(--yelow-color);
+    font-weight: bold;
+}
+.java-script-code-block{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1.25rem; */
+    margin-top: 1.25rem;
+}
+
+.js-code{
+    display: block;
+        width: 100%;
+        padding: 1.25rem;
+        background-color: var(--background-color-code);
+        border-radius: 15px 0 15px 15px;
+        border: 1px solid var(--border-color);
+        position: relative;
+        font-family: "Roboto Mono";
+        font-size: 0.875rem;
+        font-weight: bold;
+}
+.js-code-explain{
+    display: block;
+    width: 100%;
+    padding: 1.25rem;
+    background-color: var(--background-color-code);
+    border-radius: 1rem;
+    border: 1px solid var(--border-color);
+    position: relative;
+    font-family: "Roboto Mono";
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+.violet-color{
+    color: var(--violet-color);
+}
+.blue-color{
+    color: var(--blue-color);
+}
+h2{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 1em;
+  }
+nav{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1.25rem; */
+}
+.explain-js-semi-title{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1.25rem;
+}
+.line-of-code{
+    padding: 1px 4px;
+    background-color: var(--second-border-color);
+    border-radius: 5px;
+}
+ul{
+    margin-top: 0.5rem !important;
+}

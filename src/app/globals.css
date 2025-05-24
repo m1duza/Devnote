@@ -1,26 +1,40 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0A0E14;
+  --main-color: #B3B1AD;
+  --bright-color: #FEFAE0;
+  --second-background: #080B10;
+  --border-color: #444444;
+  --second-border-color: #333333;
+  --orange-color: #F1975B;
+  --semi-red-color: #E05D42;
+  --yelow-color: #E6B450;
+  --blue-color: #0081A7;
+  --violet-color: #A278D0;
+  --light-green: #98C379;
+  --background-color-code: #0D1016;
+  --slightly-lightly-code: #1A1D24;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+  color: var(--main-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+html{
+  font-size: clamp(8px, 2vw, 16px);
+}
+.main-wrapper-content{
+  width: clamp(310px, 90vw, 850px);
 }

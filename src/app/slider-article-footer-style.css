@@ -1,0 +1,42 @@
+.slider-article-footer-container {
+    width: 100%;
+    background-color: var(--second-background);
+    border-top: 1px solid var(--border-color);
+    margin-top: 6.25rem;
+    padding: 2rem 2rem 2rem 17rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    font-size: 0.75rem;
+}
+
+.slider-article-footer-text {
+    font-weight: bold;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.left-side-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.right-side-footer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-text-with-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.aside-footer-img {
+    width: 1.25rem !important;
+    height: 1.25rem !important;
+}
