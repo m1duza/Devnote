@@ -63,7 +63,6 @@
     background-color: var(--background);
 }
 .main-wrapper-content{
-    width: 850px;
     display: flex;
     justify-content: start;
     flex-direction: column;
