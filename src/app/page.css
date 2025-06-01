@@ -238,6 +238,10 @@ main{
         height: 30px !important;
         border-radius: 5px !important;
     }
+    .slider-article-footer-container{
+        flex-direction: column !important; 
+    }
+    
 }
 @media (max-width: 374px) {
     

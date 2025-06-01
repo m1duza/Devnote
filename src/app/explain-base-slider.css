@@ -19,9 +19,9 @@
     background-color: var(--background-color-code);
     border: 1px solid var(--border-color);
     border-radius: 15px 0px 15px 15px;
-    padding: 1rem;
+    padding: clamp(10px, 2vw, 16px);
     font-family: "Roboto Mono", monospace;
-    font-size: clamp(6.5px, 2vw, 14px);
+    font-size: clamp(6px, 2vw, 14px);
     font-weight: bold;
     position: relative;
     width: 100%;
@@ -52,13 +52,13 @@
 
 }
 .code-line2{
-    margin-left: 40px;
+    margin-left: 2.5rem;
 }
 .code-line3{
-    margin-left: 80px;
+    margin-left: 5rem;
 }
 .code-line4{
-    margin-left: 120px;
+    margin-left: 7.5rem;
 }
 
 .copy-img{
@@ -140,13 +140,13 @@ ol{
 }
 .css-code{
     width: 100%;
-    padding: 1rem;
+    padding: clamp(10px, 2vw, 16px);
     background-color: var(--background-color-code);
     border-radius: 15px 0px 15px 15px;
     border: 1px solid var(--border-color);
     position: relative;
     font-family: "Roboto Mono";
-    font-size: clamp(6.5px, 2vw, 14px);
+    font-size: clamp(6px, 2vw, 14px);
     font-weight: bold;
 }
 .yellow{
@@ -176,25 +176,25 @@ ol{
 .js-code{
     display: block;
         width: 100%;
-        padding: 1rem;
+        padding: clamp(10px, 2vw, 16px);
         background-color: var(--background-color-code);
         border-radius: 15px 0 15px 15px;
         border: 1px solid var(--border-color);
         position: relative;
         font-family: "Roboto Mono";
-        font-size: clamp(6.5px, 2vw, 14px);
+        font-size: clamp(6px, 2vw, 14px);
         font-weight: bold;
 }
 .js-code-explain{
     display: block;
     width: 100%;
-    padding: 1rem;
+    padding: clamp(10px, 2vw, 16px);
     background-color: var(--background-color-code);
     border-radius: 1rem;
     border: 1px solid var(--border-color);
     position: relative;
     font-family: "Roboto Mono";
-    font-size: clamp(6.5px, 2vw, 14px);
+    font-size: clamp(6px, 2vw, 14px);
     font-weight: bold;
 }
 .violet-color{

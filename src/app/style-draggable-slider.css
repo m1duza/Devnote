@@ -18,7 +18,7 @@ h3{
 .draggable-block-js{
     display: block;
     width: 100%;
-    padding: 1.25rem;
+    padding: clamp(10px, 2vw, 16px);
     background-color: var(--background-color-code);
     border-radius: 1rem 0 1rem 1rem;
     border: 1px solid var(--border-color);
@@ -31,7 +31,7 @@ h3{
 .draggable-block-js-explain{
     display: block;
     width: 100%;
-    padding: 1.25rem;
+    padding: clamp(10px, 2vw, 16px);
     background-color: var(--background-color-code);
     border-radius: 1rem 1rem 1rem 1rem;
     border: 1px solid var(--border-color);
