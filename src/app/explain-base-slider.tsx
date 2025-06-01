@@ -772,10 +772,10 @@ const htmlTextToCopy = `<section class="slider-container" id="slider-container">
                             <span className="gray">;</span>
                         </p>
                     </code>
-                    <ul>
-                        <li><span className='line-of-code'>buttonToRight</span> и <span className="line-of-code">buttonToLeft</span> кнопки для управления слайдером.</li>
-                        <li><span className="line-of-code">sliderContainer</span> – контейнер, в котором находится слайдер (ограничивает его видимую область).</li>
-                        <li><span className="line-of-code">sliderTrack</span> – сама лента слайдов, которую мы будем двигать.</li>
+                    <ul >
+                        <li ><span className='line-of-code'>buttonToRight</span> и <span className="line-of-code">buttonToLeft</span> кнопки для управления слайдером.</li>
+                        <li ><span className="line-of-code">sliderContainer</span> – контейнер, в котором находится слайдер (ограничивает его видимую область).</li>
+                        <li ><span className="line-of-code">sliderTrack</span> – сама лента слайдов, которую мы будем двигать.</li>
                     </ul>
                     <div className="html-line"></div>
                     <ol className='explain-js-semi-title' start={2}>

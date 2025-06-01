@@ -24,7 +24,7 @@ h3{
     border: 1px solid var(--border-color);
     position: relative;
     font-family: "Roboto Mono";
-    font-size: clamp(6.5px, 2vw, 14px);
+    font-size: clamp(5.75px, 2vw, 14px);
     font-weight: bold;
     
 }
@@ -37,7 +37,7 @@ h3{
     border: 1px solid var(--border-color);
     position: relative;
     font-family: "Roboto Mono";
-    font-size: clamp(6.5px, 2vw, 14px);
+    font-size: clamp(5.75px, 2vw, 14px);
     font-weight: bold;
 }
 .a-tag-ul{
