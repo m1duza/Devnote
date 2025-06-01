@@ -225,15 +225,17 @@ main{
     
     
     
-    
+    h1{
+        font-size: 2rem !important;
+    }
     .slider-button{
-        width: 40px !important;
-        height: 20px !important;
+        width: 50px !important;
+        height: 30px !important;
         border-radius: 5px !important;
     }
     .slider-button-left{
-        width: 40px !important;
-        height: 20px !important;
+        width: 50px !important;
+        height: 30px !important;
         border-radius: 5px !important;
     }
 }

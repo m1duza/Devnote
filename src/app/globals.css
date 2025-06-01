@@ -33,7 +33,7 @@ body {
 }
 
 html{
-  font-size: clamp(8px, 2vw, 16px);
+  font-size: clamp(12px, 2vw, 16px);
 }
 .main-wrapper-content{
   width: clamp(310px, 90vw, 850px);
