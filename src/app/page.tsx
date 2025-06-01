@@ -60,7 +60,7 @@ export default function Home() {
               <div  className='aside-footer-telegram-link'>
               <p className='aside-footer-contacts'>Telegram: </p>
                 <a
-                  href="https://t.me/yourtelegram"
+                  href="https://t.me/anyWay11112"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ marginLeft: '6px', display: 'inline-block' }}
